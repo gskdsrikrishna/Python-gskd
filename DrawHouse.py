@@ -1,0 +1,17 @@
+import turtle
+def draw_house():
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(45)
+    turtle.forward(70)
+    turtle.left(90)
+    turtle.forward(70)
+    turtle.left(45)
+    turtle.forward(5)
+draw_house()
+turtle.done()
