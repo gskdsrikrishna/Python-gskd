@@ -1,0 +1,11 @@
+#Distance between two points
+x1=int(input("Enter x1:"))
+y1=int(input("Enter y1:"))
+x2=int(input("Enter x2:"))
+y2=int(input("Enter y2:"))
+a=np.square(x2-x1)
+b=np.square(y2-y1)
+print(a)
+print(b)
+ans=np.sqrt(a+b)
+print("The distant between the points A and B is:",ans)

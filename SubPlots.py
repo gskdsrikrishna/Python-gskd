@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+import numpy as np
+a=np.array([1,2,3,4,5])
+b=np.array([1,2,3,4,5])
+plt.subplot(1,2,1)
+plt.plot(a,b)
+plt.xlabel("X axis")
+plt.ylabel("Y axis")
+plt.title("1st subplot")
+a=np.array([1,2,3,4,5])
+b=np.array([6,7,8,9,10])
+plt.subplot(1,2,2)
+plt.plot(a,b)
+plt.xlabel("X axis")
+plt.ylabel("Y axis")
+plt.title("2nd subplot")
+plt.show()

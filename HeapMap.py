@@ -1,0 +1,1 @@
+sns.heatmap(corr)
